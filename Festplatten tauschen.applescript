@@ -1,7 +1,7 @@
 on dismount()
 	try
 		tell application "Finder"
-			repeat with vol in {"memtest86", "volume2"}
+			repeat with vol in {"WD Elements 2TB", "WD Elements 4TB"}
 				eject disk vol
 			end repeat
 		end tell
